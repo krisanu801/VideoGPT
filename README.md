@@ -15,7 +15,8 @@ and in output1 and output2 , i have tried to get description of video from the m
 
 Just for purely experimental reasons ,
 a incident happened .few days ago i had some skin itches . and i told my brother to click a video of it . and when i uploaded the video to the model it gave me    **medical named png file
-and the video is on IMG_8091.MOV.
-just check it out.
+and the video is on IMG_8091.MOV. and well later that that day when i met the doctor he told me i have the exact same thing Pityriasis rosea.
+
+kindly check it out.
 also it's my first time uploading a project so kindly forgive me for my mistakes.
 
