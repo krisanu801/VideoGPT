@@ -1,0 +1,80 @@
+Making LLM inference request...
+I0000 00:00:1721229370.033871   58479 check_gcp_environment_no_op.cc:29] ALTS: Platforms other than Linux and Windows are not supported
+Unsupervised Learning: 
+ - K-Means Clustering 
+ - Mixture of Gaussians 
+ - EM (Expectation Maximization algorithm) 
+ - Derivation of EM
+
+Piazza (Q&A Midterms)
+
+K-Means Clustering
+* Data: {x1, ... , xm}
+ * x = (x,y)
+* **1. Initialize Cluster Centroids**
+ * µ1, ... , µk ∈ ℝ2
+  * randomly.
+* **2. Repeat until convergence**
+ * (a) Set C^(l) = argmin {||x - µj||^2}
+   * (color the points)
+ * (b) For j = 1, ... , k 
+    * µj(l+1) = Σ {I {C^(l) = j} * x(l) } / Σ {I {C^(l) = j} }
+    * (move the cluster centroids)
+
+Density Estimation
+* P(x|z) = Σ {P(z^(l)|x) * P(x|z^(l))} / Σ {P(x|z^(l))}
+ *  z = argmax {||x - µj||^2}
+ *  µj = Σ {w(l) * x(l)} / Σ {w(l)}
+ *  w(l) = Σ {I {z^(l) = j}} 
+ *  z = {1, 2, ... , k}
+
+EM (Expectation Maximization)
+* The EM algorithm maximizes the likelihood of the data by alternating between the E-step and the M-step.
+* In the E-step, the algorithm calculates the expected value of the latent variable given the current model parameters.
+* In the M-step, the algorithm updates the model parameters to maximize the expected log likelihood.
+* The EM algorithm is guaranteed to converge to a local maximum of the likelihood function.
+
+Mixture of Gaussians
+* Suppose there's a latent (hidden/unobserved) random variable Z,  z ∈ {1, 2, ... , k}
+* P(x|z) = Σ {P(z|x) * P(x|z)} 
+ * where z = argmax {||x - µj||^2}
+ *  x|z = j ~ N(µj, Σj)
+* z = {1, 2, ... , k}
+* Z is the latent variable.
+* µ is the mean of the Gaussian distribution.
+* Σ is the covariance of the Gaussian distribution.
+
+E-step:
+* The E-step is used to estimate the expected value of the latent variable Z.
+* The expected value of Z given the current model parameters is calculated using the probability distribution of Z and the current model parameters.
+* The expected value of Z is used to update the model parameters in the M-step.
+
+M-step:
+* The M-step is used to update the model parameters to maximize the expected log likelihood.
+* The model parameters are updated using the expected value of Z calculated in the E-step.
+* The M-step is used to find the parameters that best fit the data.
+
+Here's a possible approach to understanding the EM algorithm:
+
+1. **Initialize the model parameters**
+ * Randomly initialize the means µ and covariance matrices Σ of each Gaussian.
+2. **E-step:**
+ * Calculate the probability that each data point belongs to each Gaussian distribution.
+ *  P(z^(l)|x) =  {P(x|z^(l)) * P(z^(l))} / Σ {P(x|z^(l)) * P(z^(l)}
+3. **M-step:**
+ * Update the parameters (µ and Σ) to maximize the expected log likelihood.
+ * µj = Σ {w(l) * x(l)} / Σ {w(l)}
+ * w(l) = Σ {I {z^(l) = j}}
+ * The likelihood function is a concave function, so the EM algorithm will find a local maximum of the likelihood function.
+4. **Repeat steps 2 and 3 until convergence**
+ * The algorithm has converged when the parameters stop changing significantly.
+ * This indicates that the model has found the best fit for the data.
+
+The EM algorithm is a powerful tool for learning the parameters of a mixture of Gaussian distributions. It is widely used in a variety of applications, including clustering, anomaly detection, and image segmentation.
+
+The lecture also discussed that the EM algorithm is an iterative algorithm, which means it updates the model parameters gradually. This makes the algorithm less sensitive to local optima than other methods, such as gradient descent.
+
+The lecture also discussed the use of Jensen's Inequality to prove the convergence of the EM algorithm. Jensen's Inequality states that the expected value of a concave function is less than or equal to the concave function of the expected value. This inequality is used to show that the EM algorithm will always improve the likelihood function.
+
+Overall, this lecture provided a good introduction to the EM algorithm and its use in unsupervised learning. I found the explanations to be clear and concise. I am looking forward to learning more about this algorithm in the next few weeks. 
+

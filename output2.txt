@@ -1,0 +1,119 @@
+Making LLM inference request...
+I0000 00:00:1721065307.575484  140508 tcp_posix.cc:809] IOMGR endpoint shutdown
+Okay, here is a breakdown of the football match highlights you provided along with the timeframe, players, and what happened.
+
+**1:46 - 2:34**
+
+**Timeframe:** 1:46 - 2:34
+**Players:**  Arbeloa, Pepe,  Modric, Bale, James, and a few Atlético de Madrid players.
+**What happened:** The second half begins. The score is 1-1. Arbeloa moves the ball into the Atlético de Madrid's side of the field. Pepe joins the line of midfield players alongside Modric, who passes to Bale.
+
+**2:45 - 2:57**
+
+**Timeframe:** 2:45 - 2:57
+**Players:** Bale, Arbeloa, James, and the Atlético de Madrid goalkeeper.
+**What happened:** Bale pushes the ball toward James, who kicks it toward the goal. The goalkeeper stops the ball.
+
+**3:13 - 3:58**
+
+**Timeframe:** 3:13 - 3:58
+**Players:**  Koke, Siqueira, Mandzukic, Pepe, and the Real Madrid goalkeeper.
+**What happened:** Koke takes the ball. Siqueira passes to Mandzukic who dribbles past Pepe. The ball goes out of bounds. The Real Madrid goalkeeper catches the ball.
+
+**4:04 - 4:50**
+
+**Timeframe:** 4:04 - 4:50
+**Players:**  Sergio Ramos, Koke, Siqueira, Juanfran, and the Atlético de Madrid goalkeeper.
+**What happened:** Sergio Ramos takes a long kick. The ball is out of bounds. Juanfran goes to take the free kick.
+
+**5:02 - 5:30**
+
+**Timeframe:** 5:02 - 5:30
+**Players:**  Miranda, Diego Godín, Sergio Ramos, and the Atlético de Madrid goalkeeper.
+**What happened:** Miranda takes the free kick. The ball goes out of bounds. Sergio Ramos chases after it and takes the ball out of bounds, again.
+
+**5:32 - 7:02**
+
+**Timeframe:** 5:32 - 7:02
+**Players:**  Arbeloa, Gareth Bale,  Raul Garcia, Sergio Ramos, and the Atlético de Madrid goalkeeper.
+**What happened:**  Arbeloa passes to Bale. Raul Garcia cuts off the play. The ball goes out of bounds. The Real Madrid goalkeeper catches the ball. 
+
+**7:38 - 7:53**
+
+**Timeframe:** 7:38 - 7:53
+**Players:**  Bale, Benzema, and the Atlético de Madrid goalkeeper.
+**What happened:** Benzema tries to get past Bale but is tackled.
+
+**7:55 - 9:01**
+
+**Timeframe:** 7:55 - 9:01
+**Players:**  Moyá, Sergio Ramos, Mandzukic, and Fabio Coentrao.
+**What happened:** Moyá kicks the ball out of bounds.  Sergio Ramos takes the ball out of bounds.
+
+**9:05 - 10:27**
+
+**Timeframe:** 9:05 - 10:27
+**Players:** Sergio Ramos, Cristiano Ronaldo, Siqueira, and James.
+**What happened:**  Sergio Ramos kicks the ball to Cristiano Ronaldo who attempts to get past Siqueira. A foul is called on Cristiano Ronaldo.
+
+**10:46 - 11:47**
+
+**Timeframe:** 10:46 - 11:47
+**Players:**  Bale, Sergio Ramos,  Fabio Coentrao, and the Atlético de Madrid goalkeeper.
+**What happened:**  Bale takes the ball out of bounds.  Sergio Ramos takes the ball out of bounds. Fabio Coentrao attempts to get past the Atlético de Madrid goalkeeper.
+
+**11:53 - 13:11**
+
+**Timeframe:** 11:53 - 13:11
+**Players:**  Sergio Ramos, James, Koke, Fabio Coentrao, and the Atlético de Madrid goalkeeper.
+**What happened:** Sergio Ramos takes the ball. James attempts to kick the ball. Koke attempts to kick the ball. The ball goes out of bounds.
+
+**15:09 - 16:30**
+
+**Timeframe:** 15:09 - 16:30
+**Players:**  Arda Turan, James, and the Atlético de Madrid goalkeeper.
+**What happened:**  Arda Turan replaces Gabi. Arda Turan takes the ball out of bounds. The Real Madrid team celebrates a goal.
+
+**16:41 - 17:34**
+
+**Timeframe:** 16:41 - 17:34
+**Players:**  Koke, Sergio Ramos,  and the Atlético de Madrid goalkeeper.
+**What happened:**  Koke takes the ball out of bounds. Sergio Ramos takes the ball out of bounds. The Atlético de Madrid goalkeeper catches the ball.
+
+**17:47 - 18:34**
+
+**Timeframe:** 17:47 - 18:34
+**Players:**  Mandzukic,  Diego Godín, and the Atlético de Madrid goalkeeper.
+**What happened:**  The Atlético de Madrid goalkeeper catches the ball.
+
+**19:29 - 20:35**
+
+**Timeframe:** 19:29 - 20:35
+**Players:**  Arbeloa,  Gabi, and the Atlético de Madrid goalkeeper.
+**What happened:**  Arbeloa is issued a yellow card. Gabi is substituted. Chicharito comes onto the field.
+
+**21:50 - 23:10**
+
+**Timeframe:** 21:50 - 23:10
+**Players:**  Siqueira,  James, and the Atlético de Madrid goalkeeper.
+**What happened:**   Siqueira makes a move on James. The Atlético de Madrid goalkeeper catches the ball.
+
+**23:48 - 24:45**
+
+**Timeframe:** 23:48 - 24:45
+**Players:**  Chicharito,  Sergio Ramos,  and the Atlético de Madrid goalkeeper.
+**What happened:**  Chicharito comes onto the field.  Sergio Ramos passes the ball to Chicharito.
+
+**24:48 - 25:58**
+
+**Timeframe:** 24:48 - 25:58
+**Players:**  James,  Koke,  Fabio Coentrao,  Diego Godín, and the Atlético de Madrid goalkeeper.
+**What happened:**  James takes the ball out of bounds.  Koke takes the ball out of bounds. Fabio Coentrao attempts to dribble past Diego Godín. 
+
+**25:58 - 28:06**
+
+**Timeframe:** 25:58 - 28:06
+**Players:**  Cristiano Ronaldo, Modric, and the Atlético de Madrid goalkeeper.
+**What happened:**  Cristiano Ronaldo passes to Modric.  Modric tries to kick the ball. Bale is substituted. 
+
+Let me know if you'd like a more detailed description of these highlights! 

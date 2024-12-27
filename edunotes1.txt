@@ -1,0 +1,53 @@
+Making LLM inference request...
+## Unsupervised Learning Notes
+
+**Piazza @ 824 (Midterms)**
+
+* **K-means Clustering:** Trying to find different groups in a dataset. 
+    * Given only x's, you can figure out which cluster (group) each point belongs to.
+    * **Steps:**
+        1. **Initialize Cluster Centroids:**  μ1, ..., μk ∈ ℝ^d randomly.
+        2. **Repeat until convergence:**
+            * **(a) Set Ĉ(i):** = argmin_j || x(i) - μj ||^2  ("Color the points")
+            * **(b) For j = 1,..., k:**
+                μj(i) =  ∑_{i: Ĉ(i) = j} x(i) / ∑_{i: Ĉ(i) = j} 1 ("Move the cluster centroids")
+
+* **Mixture of Gaussians:**
+    *  We assume a latent (hidden/unobserved) random variable z that dictates which Gaussian each observed data point x comes from.
+    * **Assumptions:**
+        * P(x(i) | z(i) = j) ~  N(μj, Σj)  ("Gaussian")
+        * z(i) ~ Multinomial(Φ)
+    * **Equations:**
+        *  P(x(i) | z(i)) = ∏_j (P(z(i) = j) * P(x(i) | z(i) = j))
+        * Φj = 1/m ∑_i I{z(i) = j}
+        * μj = ∑_i W(i, j) * x(i) / ∑_i W(i, j)
+        * W(i, j) = P(z(i) = j | x(i), Φ, μ, Σ) =  P(x(i) | z(i) = j) * P(z(i) = j) / ∑_{j'}  P(x(i) | z(i) = j') * P(z(i) = j') 
+    * If we knew the z(i)'s, we could use MLE:
+        * λ(Φ, μ, Σ) = ∑_i log p(x(i); z(i), Φ, μ, Σ)
+* **EM (Expectation Maximization):**
+    *  We don't know the z(i) values.
+    * **E-step (Guess values of z(i)'s):**
+        * **Set W(i, j):** = P(z(i) = j | x(i), Φ, μ, Σ)
+        * This is a weighted average of the observed values, with weights based on the probabilities. 
+    * **M-step:**
+        * Φj = 1/m ∑_i W(i, j)
+        * μj = ∑_i W(i, j) * x(i) / ∑_i W(i, j)
+        * Σj = ∑_i W(i, j) * (x(i) - μj)T * (x(i) - μj) / ∑_i W(i, j)
+
+* **Density estimation:**
+    * Anomalies have low probability density.
+    * **Example:**
+        *  An aircraft engine with an unusual signature (e.g., high heat and low vibration).
+        *  We could model this as a possible anomaly because it is not within the typical range of values.
+
+* **Jensen's Inequality:**
+    * This is a key theorem for understanding EM.
+    * If f is a strictly concave function, then  f(∑_i w(i) * x(i)) ≥ ∑_i w(i) * f(x(i))
+    * **Example:** log x is strictly concave.
+    * EM is iteratively improving the green lower bound by updating the left-hand side (data) and the right-hand side (model) to improve the fit. 
+* **Summary:**
+    * Unsupervised learning algorithms like K-means and EM are used for clustering and density estimation.
+    * EM is particularly useful for finding patterns in high-dimensional data, such as aircraft engine signatures.
+    * Jensen's inequality provides a mathematical foundation for understanding the convergence properties of EM. 
+
+I0000 00:00:1721165875.985889  600939 tcp_posix.cc:809] IOMGR endpoint shutdown
